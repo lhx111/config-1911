@@ -1,6 +1,6 @@
 my:
-  name: 李昊鑫
-  gender: 男
+  name: lihaoxin
+  gender: boy
 spring:
   rabbitmq:
     host: localhost
