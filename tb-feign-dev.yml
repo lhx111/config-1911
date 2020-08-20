@@ -12,9 +12,9 @@ spring:
     min-idle: 0
  feign:
   hystrix:
-    enabled: true
+   enabled: true
   client:
-    config:
-      default:
-        connectTimeout: 2000
-        readTimeout: 2000
+   config:
+    default:
+     connectTimeout: 2000
+     readTimeout: 2000
