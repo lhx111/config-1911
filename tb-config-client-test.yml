@@ -1,6 +1,6 @@
 my:
   name: 李昊鑫
-  gender:男
+  gender: 男
 spring:
   rabbitmq:
     host: localhost
@@ -12,22 +12,6 @@ spring:
       enabled: true
       trace:
         enabled: true
-  redis:
-    database: 0
-    host: localhost
-    port: 6379
-    timeout: 6000ms
-    jedis:
-      pool:
-        max-active: 200
-        max-wait: -1ms
-        max-idle: 10
-        min-idle: 0
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/lhx1911?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
-    username: root
-    password: root
 
 management:
   endpoints:
