@@ -10,11 +10,11 @@ spring:
     max-wait: -1ms
     max-idle: 10
     min-idle: 0
- feign:
+feign:
   hystrix:
-   enabled: true
+    enabled: true
   client:
-   config:
-    default:
-     connectTimeout: 2000
-     readTimeout: 2000
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
