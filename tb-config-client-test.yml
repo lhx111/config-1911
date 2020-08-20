@@ -1,3 +1,6 @@
+my:
+  name: 李昊鑫
+  gender:男
 spring:
   rabbitmq:
     host: localhost
